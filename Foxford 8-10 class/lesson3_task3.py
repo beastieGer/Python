@@ -18,3 +18,4 @@ b = int(formula[formula.find('x')+1:formula.find('=')])
 x = -1 * b / a
 
 print(x)
+
