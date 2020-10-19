@@ -16,3 +16,4 @@
 name, middle_name, family = input().split()
 
 print(family, name[0]+'.', middle_name[0]+'.')
+
