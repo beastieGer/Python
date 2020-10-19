@@ -20,3 +20,4 @@ if "0x" not in N:
     N = "0x" + N
 
 print(int(N, 16))
+
