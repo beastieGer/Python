@@ -23,3 +23,4 @@ if "-" in N:
     N = N[1:]
 
 print(bin(int(N, 16))[2:])
+
