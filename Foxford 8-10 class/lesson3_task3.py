@@ -15,7 +15,10 @@ formula = input()
 a = int(formula[:formula.find('x')])
 b = int(formula[formula.find('x')+1:formula.find('=')])
 
-x = -1 * b / a
-
-print(x)
-
+if a == 0 and b == 0:
+    print("INF") #Решений бесконечно много
+elif a == 0 and b != 0:
+    print("NO") #Решений нет
+else:
+    x = -b / a
+    print(x)
